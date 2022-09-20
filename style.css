@@ -51,3 +51,15 @@
 .footer {
     
 }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
