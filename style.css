@@ -50,9 +50,26 @@
 
 
 .main {
-
+    background-color: #fefbed;
+    color: #201400;
+    font-size: 15px;
+    padding: 15px;
+    padding-left: 30px;
+    font-family: fira sans, sans-serif;
 }
 
 .footer {
     
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
