@@ -40,7 +40,12 @@
 
 
 .main {
-
+    background-color: #fefbed;
+    color: #201400;
+    font-size: 15px;
+    padding: 15px;
+    padding-left: 30px;
+    font-family: fira sans, sans-serif;
 }
 
 .footer {
