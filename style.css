@@ -84,6 +84,8 @@
     margin: 0 auto;
     background-color:#fefbed;
     display:flow-root;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .bodyBody h1 {
@@ -148,8 +150,8 @@
     min-height: 200px;
     
     display: inline-block;
-    padding-left: 50px;
     padding-right: 50px;
+    float: right;
    
     padding: 150px 50px;
     padding-top: 20px;
