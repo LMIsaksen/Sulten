@@ -74,20 +74,32 @@
     font-family: fira sans, sans-serif;
 }
 
-.wrapper {
-    max-width: 100%;
-    margin: 0 auto;
-    background-color:#fefbed;
-    display:flow-root;
-    
-}
 .bodyBody {
     text-align:center;
     font-family: fira sans, sans-serif;
     font-style: normal;
     font-weight: 200;
     min-width: 200px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color:#fefbed;
+    display:flow-root;
 }
+
+.bodyBody h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: gooddog-new, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.box h2 {
+    font-family: gooddog-new, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .mainMain {
     text-align:center;
     font-family: fira sans, sans-serif;
@@ -191,6 +203,9 @@
     float: left;
     width: 25%;
     padding: 30px;
+    font-family: fira sans, sans-serif;
+    font-style: normal;
+    font-weight: 200;
 }
   
   .row:after {
