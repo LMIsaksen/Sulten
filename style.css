@@ -66,16 +66,7 @@
 
 
 .main {
-    background-color: #fefbed;
-    color: #201400;
-    font-size: 15px;
-    padding: 15px;
-    padding-left: 30px;
-    font-family: fira sans, sans-serif;
-}
-
-.bodyBody {
-    text-align:center;
+   text-align:center;
     font-family: fira sans, sans-serif;
     font-style: normal;
     font-weight: 200;
@@ -88,7 +79,7 @@
     padding-right: 200px;
 }
 
-.bodyBody h1 {
+.main h1 {
     padding-top: 30px;
     padding-bottom: 30px;
     font-family: gooddog-new, sans-serif;
