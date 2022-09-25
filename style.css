@@ -101,6 +101,29 @@
     position: absolute;
 }
 
+.menu-item__heading {
+    font-family: gooddog-new, sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    text-transform: capitalize !important;
+    line-height: 1.5;
+    margin-bottom: 0;
+    color: #64c5e2 !important;
+    letter-spacing: 1.5px;
+}
+
+.menu-item__name {
+    font-family: fira sans, sans-serif;
+    font-size: 20px;
+    
+    font-weight: bold;
+    text-transform: capitalize !important;
+    line-height: 1.5;
+    margin-bottom: 0;
+    color: black !important;
+    letter-spacing: 1.8px;
+}
+
 .boxFrokost {
     width: 470px;
     min-height: 200px;
@@ -117,12 +140,13 @@
     
     margin-left: -135px;
     margin-right: 200px;
-    align-items: left;
-    line-height: 1.3;
+    
+    line-height: 1.8;
+
    
 }
 .boxLunch {
-    width: 800px;
+    width: 850px;
     min-height: 200px;
     
     display: inline-block;
@@ -132,27 +156,24 @@
     padding-bottom: 20px;
     
     text-align: left;
-    line-height: 1.3;
+    line-height: 1.8;
  
     }
 
 .boxDessert {
-    width: 400px;
+    width: 450px;
     min-height: 200px;
     
     display: inline-block;
-    padding-right: 50px;
-    float: right;
-   
+    height: auto;
     padding: 150px 50px;
     padding-top: 20px;
     padding-bottom: 20px;
-    text-align: left;
+    margin-left: 400px;
     
-    margin-left: 445px;
-    margin-right: 200px;
-    align-items: left;
-    line-height: 1.3;
+    text-align: left;
+    line-height: 1.8;
+    
  } 
 .frokost img {
     
