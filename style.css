@@ -17,6 +17,10 @@
     max-height: 80px;
 }
 
+.header img:hover {
+    opacity: 0.6;
+}
+
 .header ul {
     display: inline-block;
     text-align: right;
