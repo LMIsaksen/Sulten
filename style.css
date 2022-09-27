@@ -84,6 +84,8 @@
     color:#3F3F3F;
     display:flow-root;
     padding: 50px 150px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .main h1 {
@@ -141,15 +143,14 @@
     width: 470px;
     min-height: 200px;
     
-    
     display: inline-block;
-    margin-right: 200px;
     
-    padding: 10px 10px;
+    float: left;
+   
     padding-top: 0px;
     padding-bottom: 20px;
     text-align: left;
-    
+    align-items: left;
     line-height: 1.8;
 }
 
@@ -158,6 +159,7 @@
     min-height: 200px;
     
     display: inline-block;
+    float: left;
     height: auto;
     
     padding-top: 20px;
@@ -172,7 +174,7 @@
 .boxDessert {
     width: 450px;
   
-    
+    float: right;
     display: inline-block;
     height: auto;
     padding: 150px 50px;
