@@ -100,10 +100,10 @@
     font-family: gooddog-new, sans-serif;
     font-size: 45px;
     font-weight: 400;
-    text-transform: capitalize !important;
+    text-transform: capitalize;
     line-height: 1.5;
-    margin-bottom: 0;
-    color: #64c5e2 !important;
+    margin-bottom: -30px;
+    color: #64c5e2;
     letter-spacing: 1.5px;
 }
 
@@ -112,10 +112,10 @@
     font-size: 20px;
     
     font-weight: bold;
-    text-transform: capitalize !important;
+    text-transform: capitalize;
     line-height: 1.5;
     margin-bottom: 0;
-    color: black !important;
+    color: black;
     letter-spacing: 1.8px;
     
 }
@@ -201,7 +201,7 @@
     margin: 0 auto;
     text-align: left;
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     line-height: 1.8;
 }
 
