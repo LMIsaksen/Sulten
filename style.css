@@ -23,6 +23,7 @@
     padding-top: 32px;
     float: right;
     font-size: 18px;
+    color: #fefbed;
 }
 
 .header li {
@@ -48,13 +49,14 @@
     text-align: center;
     text-decoration: none;
     font-size: 18px;
-    margin: 18px;
-
+    margin: -15px;
 }
 
-.knapp a:hover {
-    color: #68cce7;
+.knapp:hover {
+    background-color: #68cce7;
+    
 }
+
 .top-photo {
     
     width: 100%;
