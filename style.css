@@ -23,7 +23,6 @@
     padding-top: 32px;
     float: right;
     font-size: 18px;
-    
 }
 
 .header li {
@@ -32,25 +31,30 @@
     color: #f39874;
 }
 
-.knapp {
-    background-color: #f39874;
-    border: none;
-    color: #fefbed;
-    padding: 15px 32px;
-    float: right;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    margin: 18px;
-}
-
 .header ul a:link {
     color: inherit;
     text-decoration: none;    
 }
 
+.header ul a:hover {
+    color:#68cce7;
+}
 
+.knapp {
+    background-color: #f39874;
+    color: #fefbed;
+    padding: 15px 32px;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 18px;
+
+}
+
+.knapp a:hover {
+    color: #68cce7;
+}
 .top-photo {
     
     width: 100%;
