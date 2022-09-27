@@ -17,6 +17,10 @@
     max-height: 80px;
 }
 
+.header img:hover {
+    opacity: 0.6;
+}
+
 .header ul {
     display: inline-block;
     text-align: right;
@@ -77,8 +81,11 @@
     max-width: 100%;
     margin: 0 auto;
     background-color:#fefbed;
+    color:#3F3F3F;
     display:flow-root;
     padding: 50px 150px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .main h1 {
@@ -104,36 +111,60 @@
 .menu-item__name {
     font-family: fira sans, sans-serif;
     font-size: 20px;
+<<<<<<< HEAD
     margin-bottom: 10px;
     color: black;
     letter-spacing: 1px;
+=======
+    
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    color: #3F3F3F;
+    letter-spacing: 1.8px;
+>>>>>>> af206596e83528c5b8a313301245b3fce92e997e
     
 }
 .menu-item__description {
     font-family: fira sans, sans-serif;
     font-size: 17px;
+<<<<<<< HEAD
     letter-spacing: 1px;
+=======
+    margin-top: -5px;
+    margin-bottom: 30px;
+    letter-spacing: 1.8px;
+    color: #3F3F3F;
+>>>>>>> af206596e83528c5b8a313301245b3fce92e997e
 }
 .menu-item__allergener {
     font-family: fira sans, sans-serif;
     font-size: 13px;
     margin-top: 5px;
     margin-bottom: 30px;
+<<<<<<< HEAD
     letter-spacing: 1px;
+=======
+    letter-spacing: 1.8px;
+    color: #3F3F3F;
+>>>>>>> af206596e83528c5b8a313301245b3fce92e997e
 }
 
 .boxFrokost {
     width: 470px;
     min-height: 200px;
     
-    
     display: inline-block;
-    margin-right: 200px;
     
-    padding: 10px 10px;
+    float: left;
+   
     padding-top: 0px;
     padding-bottom: 20px;
     text-align: left;
+<<<<<<< HEAD
+=======
+    align-items: left;
+>>>>>>> af206596e83528c5b8a313301245b3fce92e997e
     line-height: 1.8;
 }
 
@@ -142,6 +173,7 @@
     min-height: 200px;
     
     display: inline-block;
+    float: left;
     height: auto;
     
     padding-top: 20px;
@@ -156,7 +188,7 @@
 .boxDessert {
     width: 450px;
   
-    
+    float: right;
     display: inline-block;
     height: auto;
     padding: 150px 50px;
@@ -189,7 +221,21 @@
     margin-bottom: 40px;
     padding-bottom: 20px;
 }
-.box {
+.boxHotCold {
+    width: 300px;
+    min-height: 200px;
+    
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    line-height: 1.8;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.boxJuiceSmoothie {
     width: 300px;
     min-height: 200px;
     
@@ -204,8 +250,19 @@
     padding-right: 20px;
 }
 
+
 .footer {
     background-color:#FAEBD7;
+    color:#3F3F3F;
+}
+
+.footer a {
+    text-decoration: none;
+    color:#237d96;
+}
+
+.footer a:hover {
+    color: #f39874;
 }
 
 .footercolumn {
