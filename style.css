@@ -72,7 +72,7 @@
 
 
 .main {
-   text-align:center;
+    text-align: center;
     font-family: fira sans, sans-serif;
     font-style: normal;
     font-weight: 200;
@@ -81,8 +81,7 @@
     margin: 0 auto;
     background-color:#fefbed;
     display:flow-root;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 150px 150px;
 }
 
 .main h1 {
@@ -91,6 +90,7 @@
     font-family: gooddog-new, sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin: auto;
 }
 
 
@@ -120,10 +120,24 @@
     font-weight: bold;
     text-transform: capitalize;
     line-height: 1.5;
-    margin-bottom: 0;
+    margin-bottom: 5px;
     color: black;
     letter-spacing: 1.8px;
     
+}
+.menu-item__description {
+    font-family: fira sans, sans-serif;
+    font-size: 17px;
+    margin-top: -5px;
+    margin-bottom: 30px;
+    letter-spacing: 1.8px;
+}
+.menu-item__allergener {
+    font-family: fira sans, sans-serif;
+    font-size: 13px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    letter-spacing: 1.8px;
 }
 
 .boxFrokost {
@@ -132,54 +146,51 @@
     
     
     display: inline-block;
-    padding-left: 50px;
-    padding-right: 50px;
-   
+    margin-right: 200px;
+    
     padding: 10px 10px;
     padding-top: 0px;
     padding-bottom: 20px;
     text-align: left;
-    
-    margin-left: -135px;
-    margin-right: 200px;
     
     line-height: 1.8;
 
    
 }
 .boxLunch {
-    width: 850px;
+    width: 750px;
     min-height: 200px;
     
     display: inline-block;
     height: auto;
-    padding: 150px 50px;
+    
     padding-top: 20px;
     padding-bottom: 20px;
     
     text-align: left;
     line-height: 1.8;
+    margin-right: 200px;
  
     }
 
 .boxDessert {
     width: 450px;
-    min-height: 200px;
+  
     
     display: inline-block;
     height: auto;
     padding: 150px 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 40px;
     margin-left: 400px;
-    
+    margin-top: -20px;
     text-align: left;
     line-height: 1.8;
     
  } 
 .frokost img {
     
-    width: 280px;
+    width: 240px;
     height: 360px;
     display: inline-block; 
     vertical-align: top;
@@ -194,9 +205,9 @@
     vertical-align: top;
     margin-right: 350px;
     margin-left: -150px;
-    margin-top: -250px;
-    margin-bottom: 0px;
-    
+    margin-top: -275px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
 }
 .box {
     width: 300px;
@@ -209,6 +220,8 @@
     margin-top: 0px;
     margin-bottom: 30px;
     line-height: 1.8;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .footer {
