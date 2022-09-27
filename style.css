@@ -37,10 +37,6 @@
     text-decoration: none;    
 }
 
-.knapp a:hover {
-    color: #fefbed;
-}
-
 .header ul a:hover {
     color:#68cce7;
 }
@@ -56,12 +52,10 @@
     margin: -15px;
 }
 
-.knapp:hover {
+.header .knapp:hover {
     background-color: #68cce7;
-    
+    color: #fefbed;
 }
-
-
 
 .top-photo {
     
@@ -69,10 +63,7 @@
     background: url(header.jpg);
     background-size: cover;
     height: 900px;
-  
-    
 }
-
 
 
 
@@ -87,7 +78,7 @@
     margin: 0 auto;
     background-color:#fefbed;
     display:flow-root;
-    padding: 150px 150px;
+    padding: 50px 150px;
 }
 
 .main h1 {
@@ -99,20 +90,14 @@
     margin: auto;
 }
 
-
-.mainMain {
-    text-align:center;
-    font-family: fira sans, sans-serif;
-    font-style: normal;
-    font-weight: 200;
-    position: absolute;
+.column {
+    
 }
 
 .menu-item__heading {
     font-family: gooddog-new, sans-serif;
     font-size: 45px;
     font-weight: 400;
-    text-transform: capitalize;
     line-height: 1.5;
     margin-bottom: -30px;
     color: #64c5e2;
@@ -124,7 +109,6 @@
     font-size: 20px;
     
     font-weight: bold;
-    text-transform: capitalize;
     line-height: 1.5;
     margin-bottom: 5px;
     color: black;
@@ -160,9 +144,8 @@
     text-align: left;
     
     line-height: 1.8;
-
-   
 }
+
 .boxLunch {
     width: 750px;
     min-height: 200px;
