@@ -37,6 +37,10 @@
     text-decoration: none;    
 }
 
+.knapp a:hover {
+    color: #fefbed;
+}
+
 .header ul a:hover {
     color:#68cce7;
 }
@@ -56,6 +60,8 @@
     background-color: #68cce7;
     
 }
+
+
 
 .top-photo {
     
