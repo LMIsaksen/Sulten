@@ -90,9 +90,6 @@
     margin: auto;
 }
 
-.column {
-    
-}
 
 .menu-item__heading {
     font-family: gooddog-new, sans-serif;
@@ -101,33 +98,28 @@
     line-height: 1.5;
     margin-bottom: -30px;
     color: #64c5e2;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 }
 
 .menu-item__name {
     font-family: fira sans, sans-serif;
     font-size: 20px;
-    
-    font-weight: bold;
-    line-height: 1.5;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     color: black;
-    letter-spacing: 1.8px;
+    letter-spacing: 1px;
     
 }
 .menu-item__description {
     font-family: fira sans, sans-serif;
     font-size: 17px;
-    margin-top: -5px;
-    margin-bottom: 30px;
-    letter-spacing: 1.8px;
+    letter-spacing: 1px;
 }
 .menu-item__allergener {
     font-family: fira sans, sans-serif;
     font-size: 13px;
-    margin-top: -30px;
+    margin-top: 5px;
     margin-bottom: 30px;
-    letter-spacing: 1.8px;
+    letter-spacing: 1px;
 }
 
 .boxFrokost {
@@ -142,7 +134,6 @@
     padding-top: 0px;
     padding-bottom: 20px;
     text-align: left;
-    
     line-height: 1.8;
 }
 
