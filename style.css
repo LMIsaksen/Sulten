@@ -199,7 +199,7 @@
     margin-bottom: 40px;
     padding-bottom: 20px;
 }
-.box {
+.boxHotCold {
     width: 300px;
     min-height: 200px;
     
@@ -213,6 +213,21 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+.boxJuiceSmoothie {
+    width: 300px;
+    min-height: 200px;
+    
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    line-height: 1.8;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 
 .footer {
     background-color:#FAEBD7;
