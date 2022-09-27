@@ -210,10 +210,10 @@
 }
 
 .footer {
-    
+    background-color:#FFE4C4;
 }
 
-.column {
+.footercolumn {
     float: left;
     width: 25%;
     padding: 30px;
