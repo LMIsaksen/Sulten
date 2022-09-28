@@ -84,8 +84,8 @@
     color:#3F3F3F;
     display:flow-root;
     padding: 50px 150px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .main h1 {
@@ -135,8 +135,9 @@
 }
 
 .boxFrokost {
-    width: 470px;
+    width: 600px;
     min-height: 200px;
+   
     
     display: inline-block;
     
@@ -150,7 +151,7 @@
 }
 
 .boxLunch {
-    width: 750px;
+    width: 100%;
     min-height: 200px;
     
     display: inline-block;
@@ -158,7 +159,7 @@
     height: auto;
     
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
     
     text-align: left;
     line-height: 1.8;
@@ -172,10 +173,10 @@
     float: right;
     display: inline-block;
     height: auto;
-    padding: 150px 50px;
+   
     padding-top: 0px;
-    padding-bottom: 40px;
-    margin-left: 400px;
+    padding-bottom: 100px;
+    margin-left: 300px;
     margin-top: -20px;
     text-align: left;
     line-height: 1.8;
@@ -183,53 +184,67 @@
  } 
 .frokost img {
     
-    width: 240px;
-    height: 360px;
+    width: 360px;
+    height: 590px;
     display: inline-block; 
+    float: right;
     vertical-align: top;
-    margin-right: 30px;
-    margin-left: 600px;
-    margin-top: -330px;
+    margin-right: 0px;
+    margin-left: 740px;
+    margin-top: -700px;
+    margin-bottom: 100px;
 }
 .dessert img {
-    width: 240px;
-    height: 290px;
-    
-    vertical-align: top;
-    margin-right: 350px;
-    margin-left: -150px;
-    margin-top: -275px;
-    margin-bottom: 40px;
+    width: 330px;
+    height: 390px;
+    float: left;
+   
+  
+    margin-top: 55px;
+    margin-bottom: 30px;
     padding-bottom: 20px;
 }
 .boxHotCold {
-    width: 300px;
+    width: 100%;
     min-height: 200px;
     
     display: inline-block;
     vertical-align: top;
-    margin: 0 auto;
+   
     text-align: left;
-    margin-top: 0px;
+    margin-top: -30px;
     margin-bottom: 30px;
     line-height: 1.8;
     padding-left: 20px;
     padding-right: 20px;
 }
 .boxJuiceSmoothie {
-    width: 300px;
+    width: 100%;
     min-height: 200px;
     
     display: inline-block;
     vertical-align: top;
-    margin: 0 auto;
+    
     text-align: left;
-    margin-top: 0px;
+    margin-top: -30px;
     margin-bottom: 30px;
     line-height: 1.8;
     padding-left: 20px;
     padding-right: 20px;
 }
+.maincolumn {
+    float: left;
+    width: 50%;
+    padding-left: 0px;
+    column-gap: 150px;
+    
+    }
+
+    .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
 
 
 .footer {
