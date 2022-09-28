@@ -3,7 +3,7 @@
     
 }
 @font-face {
-    font-family: "fair sans";
+    font-family: "fira sans";
     src: url("https://use.typekit.net/vrz2vde.css");
 }
 
@@ -88,8 +88,8 @@
     color:#3F3F3F;
     display:flow-root;
     padding: 50px 150px;
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 450px;
+    padding-right: 450px;
 }
 
 .main h1 {
@@ -144,7 +144,7 @@
 }
 
 .boxFrokost {
-    width: 500px;
+    width: 550px;
     min-height: 200px;
    
     
@@ -177,7 +177,7 @@
     }
 
 .boxDessert {
-    width: 500px;
+    width: 550px;
     display: inline-block;
     float: right;
     height: auto;
@@ -197,7 +197,7 @@
     vertical-align: top;
     margin-right: 0px;
     margin-left: 740px;
-    margin-top: -650px;
+    margin-top: -685px;
     margin-bottom: 100px;
 }
 
@@ -207,13 +207,13 @@
     display: inline-block;
     float: left;
     vertical-align: top;
-    margin-top: -585px;
+    margin-top: -655px;
     margin-bottom: 30px;
     padding-bottom: 20px;
 }
 
 .Smoothie {
-    width: 400px;
+    width: 450px;
     min-height: 200px;
     display: inline-block;
     vertical-align: top;
@@ -229,7 +229,7 @@
 }
 
 .Juices {
-    width: 400px;
+    width: 450px;
     min-height: 200px;
     display: inline-block;
     vertical-align: top;
@@ -245,7 +245,7 @@
 }
 
 .Varm-drikke {
-    width: 400px;
+    width: 450px;
     min-height: 200px;
     display: inline-block;
     vertical-align: top;
@@ -256,8 +256,12 @@
     line-height: 1.8;
 }
 
+.Varm-drikke h3 {
+    line-height: 2.8;
+}
+
 .Kald-drikke {
-    width: 400px;
+    width: 450px;
     min-height: 200px;
     display: inline-block;
     vertical-align: top;
@@ -268,6 +272,9 @@
     line-height: 1.8;
 }
 
+.Kald-drikke h3 {
+    line-height: 2.8;
+}
 
 .footer {
     background-color:#FAEBD7;
