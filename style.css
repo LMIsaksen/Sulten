@@ -84,8 +84,8 @@
     color:#3F3F3F;
     display:flow-root;
     padding: 50px 150px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 500px;
+    padding-right: 500px;
 }
 
 .main h1 {
@@ -104,7 +104,6 @@
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: 10px;
-    
     color: #64c5e2;
     letter-spacing: 1px;
 }
@@ -141,7 +140,7 @@
 }
 
 .boxFrokost {
-    width: 600px;
+    width: 500px;
     min-height: 200px;
    
     
@@ -174,83 +173,96 @@
     }
 
 .boxDessert {
-    width: 450px;
-  
-    float: right;
+    width: 500px;
     display: inline-block;
+    float: right;
     height: auto;
-   
     padding-top: 0px;
     padding-bottom: 100px;
     margin-left: 300px;
     margin-top: -20px;
     text-align: left;
-    line-height: 1.8;
-    
+    line-height: 1.8;   
  } 
+
 .frokost img {
-    
     width: 360px;
-    height: 590px;
+    height: 550px;
     display: inline-block; 
     float: right;
     vertical-align: top;
     margin-right: 0px;
     margin-left: 740px;
-    margin-top: -700px;
+    margin-top: -650px;
     margin-bottom: 100px;
 }
+
 .dessert img {
-    width: 330px;
-    height: 390px;
+    width: 340px;
+    height: 480px;
+    display: inline-block;
     float: left;
-   
-  
-    margin-top: 55px;
+    vertical-align: top;
+    margin-top: -585px;
     margin-bottom: 30px;
     padding-bottom: 20px;
 }
-.boxHotCold {
-    width: 100%;
-    min-height: 200px;
-    
-    display: inline-block;
-    vertical-align: top;
-   
-    text-align: left;
-    margin-top: -30px;
-    margin-bottom: 30px;
-    line-height: 1.8;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.boxJuiceSmoothie {
-    width: 100%;
-    min-height: 200px;
-    
-    display: inline-block;
-    vertical-align: top;
-    
-    text-align: left;
-    margin-top: -30px;
-    margin-bottom: 30px;
-    line-height: 1.8;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.maincolumn {
-    float: left;
-    width: 50%;
-    padding-left: 0px;
-    column-gap: 150px;
-    
-    }
 
-    .row1:after {
-    content: "";
-    display: table;
-    clear: both;
-    }
+.Smoothie {
+    width: 400px;
+    min-height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    text-align: left;
+    margin-top: -30px;
+    margin-bottom: 100px;
+    line-height: 1.8;
+}
+
+.Smoothie p {
+    margin-bottom: 20px;
+}
+
+.Juices {
+    width: 400px;
+    min-height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    text-align: left;
+    margin-top: -30px;
+    margin-bottom: 100px;
+    line-height: 1.8;
+}
+
+.Juices p {
+    margin-bottom: 20px;
+}
+
+.Varm-drikke {
+    width: 400px;
+    min-height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    text-align: left;
+    margin-top: -30px;
+    margin-bottom: 80px;
+    line-height: 1.8;
+}
+
+.Kald-drikke {
+    width: 400px;
+    min-height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    text-align: left;
+    margin-top: -30px;
+    margin-bottom: 80px;
+    line-height: 1.8;
+}
 
 
 .footer {
