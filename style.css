@@ -77,7 +77,6 @@
 
 
 .main {
-    text-align: center;
     font-family: "fira sans", sans-serif;
     font-style: normal;
     font-weight: 200;
@@ -87,9 +86,14 @@
     background-color:#fefbed;
     color:#3F3F3F;
     display:flow-root;
-    padding: 50px 150px;
-    padding-left: 450px;
-    padding-right: 450px;
+    padding-top: 30px;
+    
+}
+
+.innhold {
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .main h1 {
