@@ -2,6 +2,10 @@
     margin: 0;
     
 }
+@font-face {
+    font-family: "fair sans";
+    src: url("https://use.typekit.net/vrz2vde.css");
+}
 
 .header {
     background-color: #fefbed;
@@ -74,7 +78,7 @@
 
 .main {
     text-align: center;
-    font-family: fira sans, sans-serif;
+    font-family: "fira sans", sans-serif;
     font-style: normal;
     font-weight: 200;
     min-width: 200px;
