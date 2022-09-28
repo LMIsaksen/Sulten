@@ -103,7 +103,8 @@
     font-size: 45px;
     font-weight: 400;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    
     color: #64c5e2;
     letter-spacing: 1px;
 }
@@ -113,11 +114,16 @@
     font-size: 20px;
     font-weight: bold;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #3F3F3F;
     letter-spacing: 1px;
     
 }
+
+.boxJuiceSmoothie p {
+    margin-bottom: 20px;
+}
+
 .menu-item__description {
     font-family: fira sans, sans-serif;
     font-size: 17px;
@@ -159,11 +165,11 @@
     
     padding-top: 20px;
     padding-bottom: 20px;
-    
+
     text-align: left;
     line-height: 1.8;
     margin-right: 200px;
- 
+
     }
 
 .boxDessert {
