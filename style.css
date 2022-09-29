@@ -206,6 +206,13 @@
     margin-bottom: 100px;
 }
 
+.frokost figcaption {
+    color:#ecb7a2;
+    margin-top: 680px;
+    font-style: italic;
+    text-align: right;
+}
+
 .dessert img {
     width: 340px;
     height: 480px;
@@ -215,6 +222,13 @@
     margin-top: -655px;
     margin-bottom: 30px;
     padding-bottom: 20px;
+}
+
+.dessert figcaption {
+    color:#ecb7a2;
+    margin-top: 1695px;
+    font-style: italic;
+    text-align: left;
 }
 
 .Smoothie {
