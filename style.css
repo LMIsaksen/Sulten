@@ -27,7 +27,6 @@
 }
 
 .header ul {
-    display: inline-block;
     text-align: right;
     padding-top: 32px;
     float: right;
@@ -151,12 +150,7 @@
 .boxFrokost {
     width: 550px;
     min-height: 200px;
-   
-    
-    display: inline-block;
-    
     float: left;
-   
     padding-top: 0px;
     padding-bottom: 20px;
     text-align: left;
@@ -167,14 +161,10 @@
 .boxLunch {
     width: 100%;
     min-height: 200px;
-    
-    display: inline-block;
     float: left;
     height: auto;
-    
     padding-top: 20px;
     padding-bottom: 100px;
-
     text-align: left;
     line-height: 1.8;
     margin-right: 200px;
@@ -183,7 +173,6 @@
 
 .boxDessert {
     width: 550px;
-    display: inline-block;
     float: right;
     height: auto;
     padding-top: 0px;
@@ -197,7 +186,6 @@
 .frokost img {
     width: 360px;
     height: 550px;
-    display: inline-block; 
     float: right;
     vertical-align: top;
     margin-right: 0px;
@@ -216,7 +204,6 @@
 .dessert img {
     width: 340px;
     height: 480px;
-    display: inline-block;
     float: left;
     vertical-align: top;
     margin-top: -655px;
@@ -234,7 +221,6 @@
 .Smoothie {
     width: 450px;
     min-height: 200px;
-    display: inline-block;
     vertical-align: top;
     float: left;
     text-align: left;
@@ -250,7 +236,6 @@
 .Juices {
     width: 450px;
     min-height: 200px;
-    display: inline-block;
     vertical-align: top;
     float: right;
     text-align: left;
@@ -266,7 +251,6 @@
 .Varm-drikke {
     width: 450px;
     min-height: 200px;
-    display: inline-block;
     vertical-align: top;
     float: right;
     text-align: left;
@@ -282,7 +266,6 @@
 .Kald-drikke {
     width: 450px;
     min-height: 200px;
-    display: inline-block;
     vertical-align: top;
     float: left;
     text-align: left;
