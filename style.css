@@ -37,7 +37,7 @@
 .header li {
     display: inline-block;
     padding-right: 40px;
-    color: #ff5d0b;
+    color: #c33535;
 }
 
 .header ul a:link {
@@ -46,15 +46,15 @@
 }
 
 .header ul a:hover:visited {
-    color:#22b8e0;
+    color:#0199d1;
 }
 
 .header ul a:hover {
-    color:#22b8e0;
+    color:#0199d1;
 }
 
 .header ul a:visited {
-    color: #e6784d;
+    color: #c33535;
 
 }
 
@@ -71,7 +71,7 @@
 }
 
 .header .knapp:hover {
-    background-color: #22b8e0;
+    background-color: #0199d1;
     color: #fefbed;
 }
 
@@ -295,11 +295,11 @@
 
 .footer a {
     text-decoration: none;
-    color:#01718d;
+    color:#0199d1;
 }
 
 .footer a:hover {
-    color: #e6784d;
+    color: #c33535;
 }
 
 .footercolumn {
