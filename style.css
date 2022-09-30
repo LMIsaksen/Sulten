@@ -37,7 +37,7 @@
 .header li {
     display: inline-block;
     padding-right: 40px;
-    color: #e94200;
+    color: #ff5d0b;
 }
 
 .header ul a:link {
@@ -59,14 +59,15 @@
 }
 
 .knapp {
-    background-color: #e6784d;
+    background-color: #c33535;
     color: #fefbed;
-    padding: 15px 32px;
+    padding: 14px 32px;
     float: right;
     text-align: center;
     text-decoration: none;
     font-size: 22px;
     margin: -15px;
+    border-radius: 35px;
 }
 
 .header .knapp:hover {
@@ -121,7 +122,7 @@
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: 10px;
-    color: #0c60ba;
+    color: #008fc3;
     letter-spacing: 1px;
 }
 
