@@ -76,7 +76,7 @@
 
 .top-photo {
     width: 100%;
-    background: url(../images/header.jpg);
+    background: url("images/header.jpg");
     background-size: cover;
     height: 900px;
 }
