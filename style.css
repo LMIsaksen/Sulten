@@ -30,14 +30,14 @@
     text-align: right;
     padding-top: 32px;
     float: right;
-    font-size: 18px;
+    font-size: 22px;
     color: #fefbed;
 }
 
 .header li {
     display: inline-block;
     padding-right: 40px;
-    color: #f39874;
+    color: #e6784d;
 }
 
 .header ul a:link {
@@ -45,23 +45,32 @@
     text-decoration: none;    
 }
 
+.header ul a:hover:visited {
+    color:#22b8e0;
+}
+
 .header ul a:hover {
-    color:#68cce7;
+    color:#22b8e0;
+}
+
+.header ul a:visited {
+    color: #e6784d;
+
 }
 
 .knapp {
-    background-color: #f39874;
+    background-color: #e6784d;
     color: #fefbed;
     padding: 15px 32px;
     float: right;
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
     margin: -15px;
 }
 
 .header .knapp:hover {
-    background-color: #68cce7;
+    background-color: #22b8e0;
     color: #fefbed;
 }
 
@@ -112,7 +121,7 @@
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: 10px;
-    color: #64c5e2;
+    color: #22b8e0;
     letter-spacing: 1px;
 }
 
@@ -195,7 +204,7 @@
 }
 
 .frokost figcaption {
-    color:#ecb7a2;
+    color:#3F3F3F;
     margin-top: 680px;
     font-style: italic;
     text-align: right;
@@ -212,7 +221,7 @@
 }
 
 .dessert figcaption {
-    color:#ecb7a2;
+    color:#3F3F3F;
     margin-top: 1695px;
     font-style: italic;
     text-align: left;
@@ -285,11 +294,11 @@
 
 .footer a {
     text-decoration: none;
-    color:#237d96;
+    color:#01718d;
 }
 
 .footer a:hover {
-    color: #f39874;
+    color: #e6784d;
 }
 
 .footercolumn {
