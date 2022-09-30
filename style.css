@@ -37,7 +37,7 @@
 .header li {
     display: inline-block;
     padding-right: 40px;
-    color: #e6784d;
+    color: #ec571b;
 }
 
 .header ul a:link {
@@ -121,7 +121,7 @@
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: 10px;
-    color: #22b8e0;
+    color: #006cdf;
     letter-spacing: 1px;
 }
 
